@@ -9,5 +9,5 @@ int main()
         printf("your number is automorphic \n ");
     else
         printf("your number is not automorphic \n ");
-    
+    return 0;
 }
