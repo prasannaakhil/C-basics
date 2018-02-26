@@ -21,15 +21,15 @@ int main()
     {
         printf("enter any year \n");
         scanf("%d",&l);
-        if(a%100==0)
+        if(l%100==0)
         {
-            if(a%400==0)
+            if(l%400==0)
                 printf("its a leap year \n");
             else
                 printf("its not a leap year \n");
         }
         else
-            if(a%4==0)
+            if(l%4==0)
                 printf("its a leap year \n");
             else
                 printf("its not a leap year \n");
